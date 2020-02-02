@@ -5,9 +5,8 @@
   "main": "lib/src/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown",
-    "prepare": "npm run build && npm run docs"
+    "build": "tsc && npm run docs",
+    "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown"
   },
   "keywords": ["rcon", "networking", "minecraft", "source"],
   "author": "brecert",

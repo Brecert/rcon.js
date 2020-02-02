@@ -1,4 +1,4 @@
-[rcon.js](../README.md) › [Globals](../globals.md) › ["Client"](../modules/_client_.md) › [PacketType](_client_.packettype.md)
+[rcon.js](../README.md) › [Globals](../globals.md) › ["client"](../modules/_client_.md) › [PacketType](_client_.packettype.md)
 
 # Enumeration: PacketType
 
@@ -22,7 +22,7 @@ type in short-int form.
 
 • **SERVERDATA_AUTH**: = 3
 
-*Defined in [Client.ts:47](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L47)*
+Defined in client.ts:47
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **SERVERDATA_AUTH_RESPONSE**: = 2
 
-*Defined in [Client.ts:46](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L46)*
+Defined in client.ts:46
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **SERVERDATA_EXECCOMMAND**: = 2
 
-*Defined in [Client.ts:45](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L45)*
+Defined in client.ts:45
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 • **SERVERDATA_RESPONSE_VALUE**: = 0
 
-*Defined in [Client.ts:44](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L44)*
+Defined in client.ts:44

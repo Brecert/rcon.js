@@ -1,4 +1,4 @@
-[rcon.js](../README.md) › [Globals](../globals.md) › ["Client"](../modules/_client_.md) › [Client](_client_.client.md)
+[rcon.js](../README.md) › [Globals](../globals.md) › ["client"](../modules/_client_.md) › [Client](_client_.client.md)
 
 # Class: Client
 
@@ -32,7 +32,7 @@
 
 \+ **new Client**(`host`: string, `port`: number): *[Client](_client_.client.md)*
 
-*Defined in [Client.ts:54](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L54)*
+Defined in client.ts:54
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ Name | Type |
 
 • **client**: *Socket*
 
-*Defined in [Client.ts:54](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L54)*
+Defined in client.ts:54
 
 ## Methods
 
@@ -57,7 +57,7 @@ Name | Type |
 
 ▸ **command**(`cmd`: string): *Promise‹[RCONPacket](../modules/_client_.md#rconpacket)›*
 
-*Defined in [Client.ts:84](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L84)*
+Defined in client.ts:117
 
 This sends commands to the RCON server. If an error occurred (ie authentication error) it
 will reject with the same response packet.
@@ -76,7 +76,7 @@ ___
 
 ▸ **destroy**(): *void*
 
-*Defined in [Client.ts:133](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L133)*
+Defined in client.ts:133
 
 Same as logging out. Once the connection is destroyed the authentication must be renewed
 the next time connected.
@@ -89,7 +89,7 @@ ___
 
 ▸ **login**(`password`: string): *Promise‹[RCONPacket](../modules/_client_.md#rconpacket)›*
 
-*Defined in [Client.ts:66](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L66)*
+Defined in client.ts:99
 
 This sends an authentication request to the RCON server and upon approval this Promise
 will resolve, otherwise it will reject with the same provided response packet.
@@ -108,7 +108,7 @@ ___
 
 ▸ **decode**(`data`: Buffer): *[RCONPacket](../modules/_client_.md#rconpacket)*
 
-*Defined in [Client.ts:120](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L120)*
+Defined in client.ts:84
 
 This decodes a packet into an object
 
@@ -126,7 +126,7 @@ ___
 
 ▸ **encode**(`type`: [PacketType](../enums/_client_.packettype.md), `id`: number, `body`: string): *Buffer*
 
-*Defined in [Client.ts:103](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L103)*
+Defined in client.ts:67
 
 This encodes a packet to be used in a TCP request.
 

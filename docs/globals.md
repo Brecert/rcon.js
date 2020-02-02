@@ -6,5 +6,5 @@
 
 ### External modules
 
-* ["Client"](modules/_client_.md)
+* ["client"](modules/_client_.md)
 * ["index"](modules/_index_.md)

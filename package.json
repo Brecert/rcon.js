@@ -3,22 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "tsc && jest",
-    "compile": "tsc",
+    "build": "tsc",
     "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown",
-    "prepublish": "npm run compile && npm run docs"
+    "prepare": "npm run build && npm run docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["rcon", "networking", "minecraft", "source"],
+  "author": "brecert",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.5",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
-    "typedoc": "^0.15.0",
-    "typedoc-plugin-markdown": "^2.2.4",
-    "typescript": "^3.6.3"
+    "@types/node": "^13.7.0",
+    "typedoc": "^0.16.9",
+    "typedoc-plugin-markdown": "^2.2.16",
+    "typescript": "^3.7.5"
   }
 }

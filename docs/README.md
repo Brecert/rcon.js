@@ -7,7 +7,7 @@ An RCON client for NodeJS developers.
 
 ## Example Usage
 ```javascript
-const {Client} = require('rcon.js');
+import { Client } from '@brecert/rcon.js'
 const client = new Client('127.0.0.1', 25575);
 
 client.login('password')

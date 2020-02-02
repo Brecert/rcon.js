@@ -1,6 +1,6 @@
-[rcon.js](../README.md) › [Globals](../globals.md) › ["Client"](_client_.md)
+[rcon.js](../README.md) › [Globals](../globals.md) › ["client"](_client_.md)
 
-# External module: "Client"
+# External module: "client"
 
 ## Index
 
@@ -22,7 +22,7 @@
 
 Ƭ **RCONPacket**: *object*
 
-*Defined in [Client.ts:31](https://github.com/dylhack/rcon.js/blob/6724b3b/src/Client.ts#L31)*
+Defined in client.ts:31
 
 Every packet has the same structure this is a representation of a response & request.
 

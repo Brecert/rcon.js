@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/src/index.js",
-  "type": "module",
   "scripts": {
     "build": "tsc && npm run docs",
     "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown"
